@@ -1,0 +1,23 @@
+body {
+    background-color: hsl(228, 33%, 97%);
+}
+div {
+    background-color: hsl(0, 0%, 100%);
+}
+#send-btn {
+    background-color: hsl(238, 40%, 52%);
+    color: white;
+    border-radius: 7px;
+    height: 3em;
+    width: 7em;
+    border: 0px;
+
+}
+
+.commentDiv {
+    margin: 20px 275px 20px 275px;
+}
+
+.replyDiv {
+    margin: 20px 275px 20px 350px;
+}
