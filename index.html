@@ -18,41 +18,57 @@
   <!-- Comment #1 -->
   
   <div class="commentDiv">
-    12
-    <img src="./images/avatars/image-amyrobson.png" alt="profile" />
-    amyrobson 
-    1 month ago
-    Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.
+    <div class="upDownVote"> 
+      <button class="box-btn"><img alt="plus" src="./images/icon-plus.svg" /></button><br>
+      <span>12</span><br>
+      <button class="box-btn"><img alt="minus" src="./images/icon-minus.svg" /></button>
+    </div>
+        <div class="avatarPhoto"><img src="./images/avatars/image-amyrobson.png" alt="profile" /></div>
+          <div class="username">amyrobson</div>
+            <div class="postDate">1 month ago</div>
+              <div class="postContent">Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.</div>
   </div>
   <!-- Comment #2 -->
   <div class="commentDiv">
-    5
-    <img src="./images/avatars/image-maxblagun.png" alt="profile" />
-    maxblagun 
-    2 weeks ago
-    Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!
+    <div class="upDownVote"> 
+      <button class="box-btn"><img alt="plus" src="./images/icon-plus.svg" /></button><br>
+      <span>5</span><br>
+      <button class="box-btn"><img alt="minus" src="./images/icon-minus.svg" /></button>
+    </div>
+        <div class="avatarPhoto"><img src="./images/avatars/image-maxblagun.png" alt="profile" /></div>
+          <div class="username">maxblagun</div>
+            <div class="postDate">2 weeks ago</div>
+              <div class="postContent">Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!</div>
   </div>
   <!-- Comment #3 (Reply to comment #2) -->
   <div class="replyDiv">
-    4
-    <img src="./images/avatars/image-ramsesmiron.png" alt="profile" />
-    ramsesmiron 
-    1 week ago
-    @maxblagun If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.
+    <div class="upDownVote"> 
+      <button class="box-btn"><img alt="plus" src="./images/icon-plus.svg" /></button><br>
+      <span>4</span><br>
+      <button class="box-btn"><img alt="minus" src="./images/icon-minus.svg" /></button>
+    </div>
+        <div class="avatarPhoto"><img src="./images/avatars/image-ramsesmiron.png" alt="profile" /></div>
+          <div class="username">ramsesmiron</div>
+            <div id="postDate4">1 week ago</div>
+              <div class="postContent"><span class="blue-span">@maxblagun</span> If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.</div>
   </div>
   <!-- Comment #4 (Reply to comment #2) -->
   <div class="replyDiv">
-    2
-    <img src="./images/avatars/image-juliusomo.png" alt="profile" />
-    juliusomo 
-    2 days ago
-    @ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.
+    <div class="upDownVote"> 
+      <button class="box-btn"><img alt="plus" src="./images/icon-plus.svg" /></button><br>
+      <span>2</span><br>
+      <button class="box-btn"><img alt="minus" src="./images/icon-minus.svg" /></button>
+    </div>
+      <div class="avatarPhoto"><img src="./images/avatars/image-juliusomo.png" alt="profile" /></div>
+        <div class="username">juliusomo</div>
+            <div id="postDate5">2 days ago</div>
+              <div class="postContent"><span class="blue-span">@ramsesmiron</span> I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.</div>
   </div>
-
-  <div class="commentDiv">
-    <img src="./images/avatars/image-juliusomo.png" alt="profile" />
-    <button id="send-btn">SEND</button>
-  </div>
+  <div class="commentDiv" class="postContent">
+    <div id="commentAvatar" class="avatarPhoto"><img src="./images/avatars/image-juliusomo.png" alt="profile" /></div>
+      <input type="text" id="input-box" placeholder="Add a comment...">
+      <button id="send-btn">SEND</button>
+    </div>
 
 </body>
 </html>

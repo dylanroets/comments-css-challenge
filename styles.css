@@ -1,23 +1,140 @@
 body {
     background-color: hsl(228, 33%, 97%);
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    margin: auto;
 }
 div {
     background-color: hsl(0, 0%, 100%);
+    border-radius: 9px;
 }
 #send-btn {
     background-color: hsl(238, 40%, 52%);
     color: white;
-    border-radius: 7px;
+    border-radius: 9px;
     height: 3em;
     width: 7em;
     border: 0px;
-
+    margin: 0px 0px 0px 420px;
+    position: relative;
+    left: 280px;
+    bottom: 110px;
+    
 }
 
 .commentDiv {
     margin: 20px 275px 20px 275px;
+    border-radius: 9px;
+    position: relative;
 }
 
 .replyDiv {
     margin: 20px 275px 20px 350px;
+    border-radius: 9px;
+}
+
+.postContent {
+    color: hsl(213, 8%, 58%);
+    margin: 0px 40px 0px 60px;
+    position: relative;
+    bottom: 100px;
+    left: 10px
+}
+.postDate {
+    color: hsl(213, 8%, 58%);
+}
+/* img {
+    height: 34px;
+    width: 34px;
+} */
+
+.upDownVote {
+    background-color:hsl(228, 33%, 97%);
+    height: 75px;
+    width: 30px;
+    margin: 1em;
+    text-align: center;
+    padding-top: 12px;
+    position: relative;
+    top: 20px;
+    left: 10px
+    
+
+}
+.username {
+    position: relative;
+    bottom: 102px;
+    left: 124px;
+    background-color: transparent;
+}
+
+.postDate {
+    position: relative;
+    bottom: 120px;
+    left: 230px;
+    background-color: transparent;
+}
+
+#postDate4 {
+    position: relative;
+    bottom: 120px;
+    left: 247px;
+    background-color: transparent;
+    color: hsl(213, 8%, 58%);
+}
+
+#postDate5 {
+    position: relative;
+    bottom: 120px;
+    left: 270px;
+    background-color: transparent;
+    color: hsl(213, 8%, 58%);
+}
+
+.avatarPhoto {
+    position: relative;
+    bottom: 70px;
+    left: 76px;
+    background-color: transparent;
+    
+}
+.avatarPhoto img {
+    height: 35px;
+    width: 35px;
+}
+
+.box-btn {
+    border: 0px;
+    background-color: transparent;
+}
+
+.blue-span {
+    color: hsl(238, 40%, 52%);
+    font-weight: 500;
+}
+.username {
+    font-weight: 500;
+}
+
+#commentAvatar {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+}
+
+#input-box {
+    height: 100px;
+    width: 50%;
+    border-radius: 3px;
+    border-color: hsl(228, 33%, 97%);
+    position: relative;
+    bottom: 20px;
+    left: 80px;
+    background-color: transparent;
+}
+
+#pTagYou {
+    background-color: hsl(238, 40%, 52%);
+    box
 }
